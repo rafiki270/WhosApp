@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
+
+@class RIUtilities;
+
 @interface RIAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property (nonatomic, strong) UIWindow *window;
+@property (nonatomic, readonly) RIUtilities *utilities;
+
 
 @end

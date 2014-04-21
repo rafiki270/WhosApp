@@ -21,6 +21,10 @@
 		156F42441905DACD00818506 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156F42261905DACD00818506 /* UIKit.framework */; };
 		156F424C1905DACD00818506 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156F424A1905DACD00818506 /* InfoPlist.strings */; };
 		156F424E1905DACD00818506 /* WhosAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F424D1905DACD00818506 /* WhosAppTests.m */; };
+		156F425B1905DD2600818506 /* RIUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F425A1905DD2600818506 /* RIUtilities.m */; };
+		156F425D1905DD4700818506 /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F425C1905DD4700818506 /* UtilitiesTests.m */; };
+		156F425E1905DDC700818506 /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42321905DACD00818506 /* RIAppDelegate.m */; };
+		156F42631905E00700818506 /* RIHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42621905E00700818506 /* RIHomeViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		156F42491905DACD00818506 /* WhosAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WhosAppTests-Info.plist"; sourceTree = "<group>"; };
 		156F424B1905DACD00818506 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		156F424D1905DACD00818506 /* WhosAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhosAppTests.m; sourceTree = "<group>"; };
+		156F42591905DD2600818506 /* RIUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIUtilities.h; sourceTree = "<group>"; };
+		156F425A1905DD2600818506 /* RIUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIUtilities.m; sourceTree = "<group>"; };
+		156F425C1905DD4700818506 /* UtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesTests.m; sourceTree = "<group>"; };
+		156F42611905E00700818506 /* RIHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIHomeViewController.h; sourceTree = "<group>"; };
+		156F42621905E00700818506 /* RIHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIHomeViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +121,10 @@
 		156F42281905DACD00818506 /* WhosApp */ = {
 			isa = PBXGroup;
 			children = (
+				156F42581905DD1000818506 /* Libs */,
+				156F42571905DBFB00818506 /* Controllers */,
 				156F42311905DACD00818506 /* RIAppDelegate.h */,
 				156F42321905DACD00818506 /* RIAppDelegate.m */,
-				156F42341905DACD00818506 /* Main.storyboard */,
-				156F42371905DACD00818506 /* RIViewController.h */,
-				156F42381905DACD00818506 /* RIViewController.m */,
-				156F423A1905DACD00818506 /* Images.xcassets */,
 				156F42291905DACD00818506 /* Supporting Files */,
 			);
 			path = WhosApp;
@@ -126,6 +133,8 @@
 		156F42291905DACD00818506 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				156F42341905DACD00818506 /* Main.storyboard */,
+				156F423A1905DACD00818506 /* Images.xcassets */,
 				156F422A1905DACD00818506 /* WhosApp-Info.plist */,
 				156F422B1905DACD00818506 /* InfoPlist.strings */,
 				156F422E1905DACD00818506 /* main.m */,
@@ -137,8 +146,9 @@
 		156F42471905DACD00818506 /* WhosAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				156F424D1905DACD00818506 /* WhosAppTests.m */,
 				156F42481905DACD00818506 /* Supporting Files */,
+				156F424D1905DACD00818506 /* WhosAppTests.m */,
+				156F425C1905DD4700818506 /* UtilitiesTests.m */,
 			);
 			path = WhosAppTests;
 			sourceTree = "<group>";
@@ -150,6 +160,42 @@
 				156F424A1905DACD00818506 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		156F42571905DBFB00818506 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				156F42601905DF9400818506 /* Home */,
+				156F425F1905DF8B00818506 /* Basic */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		156F42581905DD1000818506 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				156F42591905DD2600818506 /* RIUtilities.h */,
+				156F425A1905DD2600818506 /* RIUtilities.m */,
+			);
+			name = Libs;
+			sourceTree = "<group>";
+		};
+		156F425F1905DF8B00818506 /* Basic */ = {
+			isa = PBXGroup;
+			children = (
+				156F42371905DACD00818506 /* RIViewController.h */,
+				156F42381905DACD00818506 /* RIViewController.m */,
+			);
+			name = Basic;
+			sourceTree = "<group>";
+		};
+		156F42601905DF9400818506 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				156F42611905E00700818506 /* RIHomeViewController.h */,
+				156F42621905E00700818506 /* RIHomeViewController.m */,
+			);
+			name = Home;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -251,8 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				156F422F1905DACD00818506 /* main.m in Sources */,
+				156F42631905E00700818506 /* RIHomeViewController.m in Sources */,
 				156F42331905DACD00818506 /* RIAppDelegate.m in Sources */,
 				156F42391905DACD00818506 /* RIViewController.m in Sources */,
+				156F425B1905DD2600818506 /* RIUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +308,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156F425E1905DDC700818506 /* RIAppDelegate.m in Sources */,
+				156F425D1905DD4700818506 /* UtilitiesTests.m in Sources */,
 				156F424E1905DACD00818506 /* WhosAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +507,7 @@
 				156F42531905DACD00818506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		156F42541905DACD00818506 /* Build configuration list for PBXNativeTarget "WhosAppTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +516,7 @@
 				156F42561905DACD00818506 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

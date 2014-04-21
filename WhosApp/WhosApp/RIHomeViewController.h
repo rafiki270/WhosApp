@@ -1,17 +1,13 @@
 //
-//  RIViewController.h
+//  RIHomeViewController.h
 //  WhosApp
 //
 //  Created by Ondrej Rafaj on 22/04/2014.
 //  Copyright (c) 2014 Ridiculous Innovations. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "RIViewController.h"
 
-
-@interface RIViewController : UIViewController
-
-- (void)createAllElements;
-
+@interface RIHomeViewController : RIViewController
 
 @end

@@ -7,28 +7,36 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "RIAppDelegate.h"
+
 
 @interface WhosAppTests : XCTestCase
 
+@property (nonatomic, readonly) RIAppDelegate *delegate;
+
 @end
+
 
 @implementation WhosAppTests
 
-- (void)setUp
-{
+
+#pragma mark Setup
+
+- (void)setUp {
     [super setUp];
-    // Put setup code here. This method is called before the invocation of each test method in the class.
+    
+    _delegate = (RIAppDelegate *)[[UIApplication sharedApplication] delegate];
 }
 
-- (void)tearDown
-{
-    // Put teardown code here. This method is called after the invocation of each test method in the class.
+- (void)tearDown {
     [super tearDown];
 }
 
-- (void)testExample
-{
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+#pragma mark Tests
+
+- (void)testUtilitiesIsNotNil {
+    XCTAssertNotNil(_delegate.utilities, @"Utilities can not be nil");
 }
+
 
 @end
