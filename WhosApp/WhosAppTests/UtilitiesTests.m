@@ -7,6 +7,7 @@
 //
 
 #import <XCTest/XCTest.h>
+#import "RIUtilities.h"
 
 
 @interface UtilitiesTests : XCTestCase
@@ -29,8 +30,12 @@
 
 #pragma mark Tests
 
-- (void)testExample {
-    
+- (void)testDataIsNotNil {
+    XCTAssertNotNil(self.utilities.data, @"Data can not be nil");
+}
+
+- (void)testDownloadsIsNotNil {
+    XCTAssertNotNil(self.utilities.downloads, @"Downloads can not be nil");
 }
 
 

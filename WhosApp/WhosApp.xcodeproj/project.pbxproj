@@ -13,7 +13,6 @@
 		156F422D1905DACD00818506 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 156F422B1905DACD00818506 /* InfoPlist.strings */; };
 		156F422F1905DACD00818506 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F422E1905DACD00818506 /* main.m */; };
 		156F42331905DACD00818506 /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42321905DACD00818506 /* RIAppDelegate.m */; };
-		156F42361905DACD00818506 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 156F42341905DACD00818506 /* Main.storyboard */; };
 		156F42391905DACD00818506 /* RIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42381905DACD00818506 /* RIViewController.m */; };
 		156F423B1905DACD00818506 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 156F423A1905DACD00818506 /* Images.xcassets */; };
 		156F42421905DACD00818506 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 156F42411905DACD00818506 /* XCTest.framework */; };
@@ -25,6 +24,20 @@
 		156F425D1905DD4700818506 /* UtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F425C1905DD4700818506 /* UtilitiesTests.m */; };
 		156F425E1905DDC700818506 /* RIAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42321905DACD00818506 /* RIAppDelegate.m */; };
 		156F42631905E00700818506 /* RIHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42621905E00700818506 /* RIHomeViewController.m */; };
+		156F42671905E31500818506 /* RIData.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42661905E31500818506 /* RIData.m */; };
+		156F426B1905E35D00818506 /* NSObject+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F426A1905E35D00818506 /* NSObject+Utilities.m */; };
+		156F426C1905E3E500818506 /* NSObject+Utilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F426A1905E35D00818506 /* NSObject+Utilities.m */; };
+		156F42701905E4D700818506 /* RIDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F426F1905E4D700818506 /* RIDetailViewController.m */; };
+		156F42741905E56900818506 /* RIDownloads.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42731905E56900818506 /* RIDownloads.m */; };
+		156F42781905E71600818506 /* RIEmployee.m in Sources */ = {isa = PBXBuildFile; fileRef = 156F42771905E71600818506 /* RIEmployee.m */; };
+		156F439F1905E9C700818506 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 156F43971905E9C700818506 /* libOCMock.a */; };
+		15B74ADC1905F98400BB253F /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74AD81905F98400BB253F /* HTMLNode.m */; };
+		15B74ADD1905F98400BB253F /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74ADA1905F98400BB253F /* HTMLParser.m */; };
+		15B74AE01905F9A000BB253F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B74ADF1905F9A000BB253F /* libxml2.dylib */; };
+		15B74AE61906011300BB253F /* RIEmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74AE51906011300BB253F /* RIEmployeeTableViewCell.m */; };
+		15B74AEA1906048600BB253F /* RIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74AE91906048600BB253F /* RIImageView.m */; };
+		15B74AEF190605D900BB253F /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B74AED190605D900BB253F /* Logo.png */; };
+		15B74AF0190605D900BB253F /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B74AEE190605D900BB253F /* Logo@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +61,6 @@
 		156F42301905DACD00818506 /* WhosApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WhosApp-Prefix.pch"; sourceTree = "<group>"; };
 		156F42311905DACD00818506 /* RIAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIAppDelegate.h; sourceTree = "<group>"; };
 		156F42321905DACD00818506 /* RIAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIAppDelegate.m; sourceTree = "<group>"; };
-		156F42351905DACD00818506 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		156F42371905DACD00818506 /* RIViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RIViewController.h; sourceTree = "<group>"; };
 		156F42381905DACD00818506 /* RIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RIViewController.m; sourceTree = "<group>"; };
 		156F423A1905DACD00818506 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -62,6 +74,34 @@
 		156F425C1905DD4700818506 /* UtilitiesTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesTests.m; sourceTree = "<group>"; };
 		156F42611905E00700818506 /* RIHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIHomeViewController.h; sourceTree = "<group>"; };
 		156F42621905E00700818506 /* RIHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIHomeViewController.m; sourceTree = "<group>"; };
+		156F42651905E31500818506 /* RIData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIData.h; sourceTree = "<group>"; };
+		156F42661905E31500818506 /* RIData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIData.m; sourceTree = "<group>"; };
+		156F42691905E35D00818506 /* NSObject+Utilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+Utilities.h"; sourceTree = "<group>"; };
+		156F426A1905E35D00818506 /* NSObject+Utilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Utilities.m"; sourceTree = "<group>"; };
+		156F426E1905E4D700818506 /* RIDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIDetailViewController.h; sourceTree = "<group>"; };
+		156F426F1905E4D700818506 /* RIDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIDetailViewController.m; sourceTree = "<group>"; };
+		156F42721905E56900818506 /* RIDownloads.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIDownloads.h; sourceTree = "<group>"; };
+		156F42731905E56900818506 /* RIDownloads.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIDownloads.m; sourceTree = "<group>"; };
+		156F42761905E71600818506 /* RIEmployee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIEmployee.h; sourceTree = "<group>"; };
+		156F42771905E71600818506 /* RIEmployee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIEmployee.m; sourceTree = "<group>"; };
+		156F43971905E9C700818506 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
+		156F43991905E9C700818506 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
+		156F439A1905E9C700818506 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
+		156F439B1905E9C700818506 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
+		156F439C1905E9C700818506 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
+		156F439D1905E9C700818506 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
+		156F439E1905E9C700818506 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
+		15B74AD71905F98400BB253F /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		15B74AD81905F98400BB253F /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		15B74AD91905F98400BB253F /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		15B74ADA1905F98400BB253F /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		15B74ADF1905F9A000BB253F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		15B74AE41906011300BB253F /* RIEmployeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIEmployeeTableViewCell.h; sourceTree = "<group>"; };
+		15B74AE51906011300BB253F /* RIEmployeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIEmployeeTableViewCell.m; sourceTree = "<group>"; };
+		15B74AE81906048600BB253F /* RIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIImageView.h; sourceTree = "<group>"; };
+		15B74AE91906048600BB253F /* RIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIImageView.m; sourceTree = "<group>"; };
+		15B74AED190605D900BB253F /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
+		15B74AEE190605D900BB253F /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B74AE01905F9A000BB253F /* libxml2.dylib in Frameworks */,
 				156F42251905DACD00818506 /* CoreGraphics.framework in Frameworks */,
 				156F42271905DACD00818506 /* UIKit.framework in Frameworks */,
 				156F42231905DACD00818506 /* Foundation.framework in Frameworks */,
@@ -80,6 +121,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				156F42421905DACD00818506 /* XCTest.framework in Frameworks */,
+				156F439F1905E9C700818506 /* libOCMock.a in Frameworks */,
 				156F42441905DACD00818506 /* UIKit.framework in Frameworks */,
 				156F42431905DACD00818506 /* Foundation.framework in Frameworks */,
 			);
@@ -110,6 +152,7 @@
 		156F42211905DACD00818506 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				15B74ADF1905F9A000BB253F /* libxml2.dylib */,
 				156F42221905DACD00818506 /* Foundation.framework */,
 				156F42241905DACD00818506 /* CoreGraphics.framework */,
 				156F42261905DACD00818506 /* UIKit.framework */,
@@ -121,7 +164,10 @@
 		156F42281905DACD00818506 /* WhosApp */ = {
 			isa = PBXGroup;
 			children = (
+				15B74AD51905F98400BB253F /* Thirdparty */,
+				156F42681905E34700818506 /* Categories */,
 				156F42581905DD1000818506 /* Libs */,
+				15B74AE1190600DE00BB253F /* Views */,
 				156F42571905DBFB00818506 /* Controllers */,
 				156F42311905DACD00818506 /* RIAppDelegate.h */,
 				156F42321905DACD00818506 /* RIAppDelegate.m */,
@@ -133,7 +179,7 @@
 		156F42291905DACD00818506 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				156F42341905DACD00818506 /* Main.storyboard */,
+				15B74AEB190605D900BB253F /* Assets */,
 				156F423A1905DACD00818506 /* Images.xcassets */,
 				156F422A1905DACD00818506 /* WhosApp-Info.plist */,
 				156F422B1905DACD00818506 /* InfoPlist.strings */,
@@ -146,6 +192,7 @@
 		156F42471905DACD00818506 /* WhosAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				156F42791905E82800818506 /* Thirdparty */,
 				156F42481905DACD00818506 /* Supporting Files */,
 				156F424D1905DACD00818506 /* WhosAppTests.m */,
 				156F425C1905DD4700818506 /* UtilitiesTests.m */,
@@ -165,6 +212,7 @@
 		156F42571905DBFB00818506 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				156F426D1905E4C200818506 /* Detail */,
 				156F42601905DF9400818506 /* Home */,
 				156F425F1905DF8B00818506 /* Basic */,
 			);
@@ -174,6 +222,8 @@
 		156F42581905DD1000818506 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				156F42711905E53A00818506 /* Downloads */,
+				156F42641905E2FC00818506 /* Data */,
 				156F42591905DD2600818506 /* RIUtilities.h */,
 				156F425A1905DD2600818506 /* RIUtilities.m */,
 			);
@@ -196,6 +246,153 @@
 				156F42621905E00700818506 /* RIHomeViewController.m */,
 			);
 			name = Home;
+			sourceTree = "<group>";
+		};
+		156F42641905E2FC00818506 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				156F42751905E70500818506 /* Model */,
+				156F42651905E31500818506 /* RIData.h */,
+				156F42661905E31500818506 /* RIData.m */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		156F42681905E34700818506 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				156F42691905E35D00818506 /* NSObject+Utilities.h */,
+				156F426A1905E35D00818506 /* NSObject+Utilities.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		156F426D1905E4C200818506 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				156F426E1905E4D700818506 /* RIDetailViewController.h */,
+				156F426F1905E4D700818506 /* RIDetailViewController.m */,
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		156F42711905E53A00818506 /* Downloads */ = {
+			isa = PBXGroup;
+			children = (
+				156F42721905E56900818506 /* RIDownloads.h */,
+				156F42731905E56900818506 /* RIDownloads.m */,
+			);
+			name = Downloads;
+			sourceTree = "<group>";
+		};
+		156F42751905E70500818506 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				156F42761905E71600818506 /* RIEmployee.h */,
+				156F42771905E71600818506 /* RIEmployee.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		156F42791905E82800818506 /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				156F43961905E9C700818506 /* OCMock */,
+			);
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		156F43961905E9C700818506 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				156F43971905E9C700818506 /* libOCMock.a */,
+				156F43981905E9C700818506 /* OCMock */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		156F43981905E9C700818506 /* OCMock */ = {
+			isa = PBXGroup;
+			children = (
+				156F43991905E9C700818506 /* NSNotificationCenter+OCMAdditions.h */,
+				156F439A1905E9C700818506 /* OCMArg.h */,
+				156F439B1905E9C700818506 /* OCMConstraint.h */,
+				156F439C1905E9C700818506 /* OCMock.h */,
+				156F439D1905E9C700818506 /* OCMockObject.h */,
+				156F439E1905E9C700818506 /* OCMockRecorder.h */,
+			);
+			path = OCMock;
+			sourceTree = "<group>";
+		};
+		15B74AD51905F98400BB253F /* Thirdparty */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AD61905F98400BB253F /* Objective-C-HMTL-Parser */,
+			);
+			path = Thirdparty;
+			sourceTree = "<group>";
+		};
+		15B74AD61905F98400BB253F /* Objective-C-HMTL-Parser */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AD71905F98400BB253F /* HTMLNode.h */,
+				15B74AD81905F98400BB253F /* HTMLNode.m */,
+				15B74AD91905F98400BB253F /* HTMLParser.h */,
+				15B74ADA1905F98400BB253F /* HTMLParser.m */,
+			);
+			path = "Objective-C-HMTL-Parser";
+			sourceTree = "<group>";
+		};
+		15B74AE1190600DE00BB253F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AE71906046400BB253F /* Image */,
+				15B74AE2190600E500BB253F /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		15B74AE2190600E500BB253F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AE3190600EA00BB253F /* Employee cell */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		15B74AE3190600EA00BB253F /* Employee cell */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AE41906011300BB253F /* RIEmployeeTableViewCell.h */,
+				15B74AE51906011300BB253F /* RIEmployeeTableViewCell.m */,
+			);
+			name = "Employee cell";
+			sourceTree = "<group>";
+		};
+		15B74AE71906046400BB253F /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AE81906048600BB253F /* RIImageView.h */,
+				15B74AE91906048600BB253F /* RIImageView.m */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		15B74AEB190605D900BB253F /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AEC190605D900BB253F /* Images */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		15B74AEC190605D900BB253F /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				15B74AED190605D900BB253F /* Logo.png */,
+				15B74AEE190605D900BB253F /* Logo@2x.png */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,9 +472,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15B74AEF190605D900BB253F /* Logo.png in Resources */,
+				15B74AF0190605D900BB253F /* Logo@2x.png in Resources */,
 				156F423B1905DACD00818506 /* Images.xcassets in Resources */,
 				156F422D1905DACD00818506 /* InfoPlist.strings in Resources */,
-				156F42361905DACD00818506 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,11 +494,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				156F42701905E4D700818506 /* RIDetailViewController.m in Sources */,
+				15B74AEA1906048600BB253F /* RIImageView.m in Sources */,
+				15B74ADD1905F98400BB253F /* HTMLParser.m in Sources */,
+				156F42671905E31500818506 /* RIData.m in Sources */,
 				156F422F1905DACD00818506 /* main.m in Sources */,
 				156F42631905E00700818506 /* RIHomeViewController.m in Sources */,
 				156F42331905DACD00818506 /* RIAppDelegate.m in Sources */,
+				156F426B1905E35D00818506 /* NSObject+Utilities.m in Sources */,
+				156F42781905E71600818506 /* RIEmployee.m in Sources */,
+				15B74ADC1905F98400BB253F /* HTMLNode.m in Sources */,
 				156F42391905DACD00818506 /* RIViewController.m in Sources */,
+				156F42741905E56900818506 /* RIDownloads.m in Sources */,
 				156F425B1905DD2600818506 /* RIUtilities.m in Sources */,
+				15B74AE61906011300BB253F /* RIEmployeeTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,6 +517,7 @@
 			files = (
 				156F425E1905DDC700818506 /* RIAppDelegate.m in Sources */,
 				156F425D1905DD4700818506 /* UtilitiesTests.m in Sources */,
+				156F426C1905E3E500818506 /* NSObject+Utilities.m in Sources */,
 				156F424E1905DACD00818506 /* WhosAppTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,14 +539,6 @@
 				156F422C1905DACD00818506 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		156F42341905DACD00818506 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				156F42351905DACD00818506 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		156F424A1905DACD00818506 /* InfoPlist.strings */ = {
@@ -429,6 +629,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhosApp/WhosApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/include/libxml2,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "WhosApp/WhosApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -442,6 +647,11 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhosApp/WhosApp-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/include/libxml2,
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+				);
 				INFOPLIST_FILE = "WhosApp/WhosApp-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -464,6 +674,16 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "WhosAppTests/WhosAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhosAppTests/Thirdparty/OCMock",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -482,6 +702,16 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WhosApp/WhosApp-Prefix.pch";
 				INFOPLIST_FILE = "WhosAppTests/WhosAppTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WhosAppTests/Thirdparty/OCMock",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					XCTest,
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

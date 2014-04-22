@@ -7,7 +7,28 @@
 //
 
 #import "RIUtilities.h"
+#import "RIData.h"
+#import "RIDownloads.h"
+
 
 @implementation RIUtilities
+
+
+#pragma mark Initialization
+
+- (void)instanciateUtilities {
+    _data = [[RIData alloc] init];
+    
+    _downloads = [[RIDownloads alloc] init];
+}
+
+- (id)init {
+    self = [super init];
+    if (self) {
+        [self instanciateUtilities];
+    }
+    return self;
+}
+
 
 @end

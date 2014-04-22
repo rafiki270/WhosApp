@@ -8,6 +8,13 @@
 
 #import <Foundation/Foundation.h>
 
+
+@class RIData, RIDownloads;
+
 @interface RIUtilities : NSObject
+
+@property (nonatomic, readonly) RIData *data;
+@property (nonatomic, readonly) RIDownloads *downloads;
+
 
 @end

@@ -1,0 +1,3 @@
+[submodule "WhosApp/WhosApp/Thirdparty/Objective-C-HMTL-Parser"]
+	path = WhosApp/WhosApp/Thirdparty/Objective-C-HMTL-Parser
+	url = git@github.com:zootreeves/Objective-C-HMTL-Parser.git

@@ -7,6 +7,10 @@
 //
 
 #import <XCTest/XCTest.h>
+//#import "OCMock.h"
+#import "OCMockObject.h"
+
+#import "RIUtilities.h"
 #import "RIAppDelegate.h"
 
 
@@ -36,6 +40,11 @@
 
 - (void)testUtilitiesIsNotNil {
     XCTAssertNotNil(_delegate.utilities, @"Utilities can not be nil");
+}
+
+- (void)testUtilitiesAreInstanciatedOnlyOnce {
+    id utils = self.utilities;
+    XCTAssertEqualObjects(utils, self.utilities, @"Utilities should be instanciated only once");
 }
 
 

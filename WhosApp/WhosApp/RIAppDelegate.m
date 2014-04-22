@@ -7,15 +7,33 @@
 //
 
 #import "RIAppDelegate.h"
+#import "RIHomeViewController.h"
 #import "RIUtilities.h"
 
 
 @implementation RIAppDelegate
 
+@synthesize utilities = _utilities;
+
+
+#pragma mark Utilities
+
+- (RIUtilities *)utilities {
+    static dispatch_once_t once;
+    dispatch_once(&once, ^{
+        _utilities = [[RIUtilities alloc] init];
+    });
+    return _utilities;
+}
+
+#pragma mark App delegate methods
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    _utilities = [[RIUtilities alloc] init];
-    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    UIViewController *viewController = [[RIHomeViewController alloc] init];
+    UINavigationController *nc = [[UINavigationController alloc] initWithRootViewController:viewController];
+    self.window.rootViewController = nc;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 							

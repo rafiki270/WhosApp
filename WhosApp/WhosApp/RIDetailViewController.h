@@ -1,5 +1,5 @@
 //
-//  RIHomeViewController.h
+//  RIDetailViewController.h
 //  WhosApp
 //
 //  Created by Ondrej Rafaj on 22/04/2014.
@@ -8,6 +8,12 @@
 
 #import "RIViewController.h"
 
-@interface RIHomeViewController : RIViewController <UITableViewDataSource, UITableViewDelegate>
+
+@class RIEmployee;
+
+@interface RIDetailViewController : RIViewController
+
+@property (nonatomic, strong) RIEmployee *employee;
+
 
 @end
