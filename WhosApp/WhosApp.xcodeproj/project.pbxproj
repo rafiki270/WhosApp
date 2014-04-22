@@ -35,7 +35,6 @@
 		15B74ADD1905F98400BB253F /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74ADA1905F98400BB253F /* HTMLParser.m */; };
 		15B74AE01905F9A000BB253F /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 15B74ADF1905F9A000BB253F /* libxml2.dylib */; };
 		15B74AE61906011300BB253F /* RIEmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74AE51906011300BB253F /* RIEmployeeTableViewCell.m */; };
-		15B74AEA1906048600BB253F /* RIImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B74AE91906048600BB253F /* RIImageView.m */; };
 		15B74AEF190605D900BB253F /* Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B74AED190605D900BB253F /* Logo.png */; };
 		15B74AF0190605D900BB253F /* Logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15B74AEE190605D900BB253F /* Logo@2x.png */; };
 /* End PBXBuildFile section */
@@ -98,8 +97,6 @@
 		15B74ADF1905F9A000BB253F /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
 		15B74AE41906011300BB253F /* RIEmployeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIEmployeeTableViewCell.h; sourceTree = "<group>"; };
 		15B74AE51906011300BB253F /* RIEmployeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIEmployeeTableViewCell.m; sourceTree = "<group>"; };
-		15B74AE81906048600BB253F /* RIImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RIImageView.h; sourceTree = "<group>"; };
-		15B74AE91906048600BB253F /* RIImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RIImageView.m; sourceTree = "<group>"; };
 		15B74AED190605D900BB253F /* Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Logo.png; sourceTree = "<group>"; };
 		15B74AEE190605D900BB253F /* Logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Logo@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -346,7 +343,6 @@
 		15B74AE1190600DE00BB253F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				15B74AE71906046400BB253F /* Image */,
 				15B74AE2190600E500BB253F /* Cells */,
 			);
 			name = Views;
@@ -367,15 +363,6 @@
 				15B74AE51906011300BB253F /* RIEmployeeTableViewCell.m */,
 			);
 			name = "Employee cell";
-			sourceTree = "<group>";
-		};
-		15B74AE71906046400BB253F /* Image */ = {
-			isa = PBXGroup;
-			children = (
-				15B74AE81906048600BB253F /* RIImageView.h */,
-				15B74AE91906048600BB253F /* RIImageView.m */,
-			);
-			name = Image;
 			sourceTree = "<group>";
 		};
 		15B74AEB190605D900BB253F /* Assets */ = {
@@ -495,7 +482,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				156F42701905E4D700818506 /* RIDetailViewController.m in Sources */,
-				15B74AEA1906048600BB253F /* RIImageView.m in Sources */,
 				15B74ADD1905F98400BB253F /* HTMLParser.m in Sources */,
 				156F42671905E31500818506 /* RIData.m in Sources */,
 				156F422F1905DACD00818506 /* main.m in Sources */,
