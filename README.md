@@ -1,5 +1,17 @@
-Who’s App
+Who’s Who App for theappbusiness.com
 =======
+
+So apparently my code was too bad for the following reasons:
+He mixes responsibilities too much. 
+Uses iVara directly. Extremely bad for testing but in general a big no no. 
+Performs non-layout code in layout.
+
+well ... shame, when you have three hours to do something like that.
+
+
+
+
+
 
 Repository contains submodule, please make sure you initialise it properly when cloning the project.
 
@@ -14,5 +26,3 @@ Space for improvements:
 - Unify GDC thread management to be handled from data source classes only
 - Not using HTML! :)
 
-
-by Ondrej Rafaj
